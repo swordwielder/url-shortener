@@ -24,7 +24,7 @@
 
 ## To run:
 
-* ```python main.py``
+* ```python main.py```
 
 ## Result:
 
