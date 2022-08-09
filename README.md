@@ -3,7 +3,7 @@
 ## INTRODUCTION
 ### This is a URL shortener
 
-### This URL shortener only works on links with https://, all other links will be rejected
+### This URL shortener only works on links with "https://", all other links will be rejected
 
 
 ## What it does
