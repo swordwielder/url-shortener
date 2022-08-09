@@ -1,23 +1,16 @@
 # URL shortener
 
 ## INTRODUCTION
-This is a URL shortener
+### This is a URL shortener
 
-* 
+### This URL shortener only works on links with https://, all other links will be rejected
 
 
 ## What it does
 
-**URL shortener**
+**Returns a url shortener link that starts with short.ly/**
 
 ### Additional Feature
-
-**info**
-
-
-## Requirements:
-
-* ```pip install -r requirements.txt```
 
 
 
@@ -27,11 +20,11 @@ This is a URL shortener
 
 ## To run:
 
-* ```python coinscraper.py```
+* ```python main.py``
 
 ## Result:
 
-**You should see two files**
+****
 
 * 
 
@@ -42,20 +35,16 @@ This is a URL shortener
 
 
 
-
 ## Library/Package:
 
 * Python
 
-* BeautifulSoup
+* HTTPServer
 
-* Selenium
+* random
 
-* requests
+* string
 
-* decouple
-
-* sqlite
 
 
 ## Author:
