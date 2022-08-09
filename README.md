@@ -37,7 +37,7 @@
 
 ## Resources:
 
-* [stack](stackoverflow.com) 
+* [stack](https://stackoverflow.com) 
 * [bitly api](https://dev.bitly.com/)
 
 
