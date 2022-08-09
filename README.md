@@ -10,13 +10,17 @@
 
 **Returns a url shortener link that starts with short.ly/**
 
-### Additional Feature
+**If a short.ly link is entered, it will return the original link that was linked to it**
 
 
 
 
-#### Optional
-* 
+##  Instructions
+
+**Once it runs, you will see a text field for it to be entered, in the text field, any link that starts with "https://" may be entered**
+**Any previously short.ly link may also be entered for the original link**
+
+
 
 ## To run:
 
@@ -24,9 +28,9 @@
 
 ## Result:
 
-****
+**A short.ly link**
 
-* 
+**or the original link that was link to the short.ly link**
 
 
 ## Resources:
