@@ -32,7 +32,7 @@ class MyServer(BaseHTTPRequestHandler):
             tobereplace = self.path[10:]
             
             # check if the link is valid all other will be rejected
-            if 'https%3A%2F%2F' == tobereplace[:13]:
+            if 'https%3A%2F%2F' in tobereplace[:14]:
                 # replace the : and // with the actual value
                 link = tobereplace.replace('%2F', '/')
                 link = link.replace('%3A',':')
@@ -41,7 +41,7 @@ class MyServer(BaseHTTPRequestHandler):
                 print()
                 #
                 print(check_value_exist(dictionary, link))
-                
+                print(dictionary)
                 if link in dictionary:
                     # if a link is already in the dictionary, give the current link that existed in dictionary
                     self.wfile.write(bytes('The short url is: %s' % dictionary[link],"utf-8"))
@@ -70,7 +70,7 @@ class MyServer(BaseHTTPRequestHandler):
                     self.wfile.write(bytes('<br> ' , "utf-8"))
                     self.wfile.write(bytes('<a href={original}>{short}</a>'.format(short=shorturl ,original= link),"utf-8" ))
                     self.wfile.write(bytes("</body></html>", "utf-8"))
-                # print(dictionary)
+                print(dictionary)
             else:
                 # check all conditions if https:// is not entered
                 link = tobereplace.replace('%2F', '/')
@@ -88,7 +88,7 @@ class MyServer(BaseHTTPRequestHandler):
                     self.wfile.write(bytes('<p>  INVALID link</p>' , "utf-8"))
                 
                 self.wfile.write(bytes("</body></html>", "utf-8"))
-            #print(shorturllist)
+            #print(dictionary)
 
 
 def get_key(val):
