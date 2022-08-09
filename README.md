@@ -20,7 +20,9 @@
 **Once it runs, you will see a text field for it to be entered, in the text field, any link that starts with "https://" may be entered**
 **Any previously short.ly link may also be entered for the original link**
 
+## How it was built
 
+**By using the Bitly API, looking through their documentation there is no compression algorithm, but there is a lookup and generation algorithm.**
 
 ## To run:
 
@@ -36,7 +38,7 @@
 ## Resources:
 
 * [stack](stackoverflow.com) 
-
+* [bitly api](https://dev.bitly.com/)
 
 
 ## Library/Package:
@@ -49,6 +51,7 @@
 
 * string
 
+* requests
 
 
 ## Author:
