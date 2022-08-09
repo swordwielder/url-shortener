@@ -88,7 +88,7 @@ class MyServer(BaseHTTPRequestHandler):
                     self.wfile.write(bytes('<br> ' , "utf-8"))
                     self.wfile.write(bytes('<a  href={original}>{short}</a>'.format(short=link ,original= get_key(link)),"utf-8"))
                     self.wfile.write(bytes("</body></html>", "utf-8"))
-                else:  #if not a shortly link, reject the link and print error
+                else:  #if not a shortened link, reject the link and print error
                     self.wfile.write(bytes('<p>  INVALID link</p>' , "utf-8"))
                 
                 self.wfile.write(bytes("</body></html>", "utf-8"))

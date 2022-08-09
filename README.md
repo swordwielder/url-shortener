@@ -8,9 +8,9 @@
 
 ## What it does
 
-**Returns a url shortener link that starts with short.ly/**
+**Returns a url shortener link that starts with bit.ly/**
 
-**If a short.ly link is entered, it will return the original link that was linked to it**
+**If a bit.ly link is entered, it will return the original link that was linked to it**
 
 
 
@@ -18,7 +18,7 @@
 ##  Instructions
 
 **Once it runs, you will see a text field for it to be entered, in the text field, any link that starts with "https://" may be entered**
-**Any previously short.ly link may also be entered for the original link**
+**Any previously bit.ly link may also be entered for the original link**
 
 ## How it was built
 
@@ -30,9 +30,9 @@
 
 ## Result:
 
-**A short.ly link or**
+**A bit.ly link or**
 
-**The original link that was link to the short.ly link**
+**The original link that was link to the bit.ly link**
 
 
 ## Resources:
