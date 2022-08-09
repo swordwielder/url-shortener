@@ -28,9 +28,9 @@
 
 ## Result:
 
-**A short.ly link**
+**A short.ly link or**
 
-**or the original link that was link to the short.ly link**
+**The original link that was link to the short.ly link**
 
 
 ## Resources:
