@@ -95,7 +95,7 @@ class MyServer(BaseHTTPRequestHandler):
             #print(dictionary)
 
 
-
+#utilizes the bit ly api
 def shorten(url):
     link = ''
     auth_res = requests.post("https://api-ssl.bitly.com/oauth/access_token", auth=(username, password))
@@ -130,7 +130,7 @@ def shorten(url):
 
     return link
 
-
+# get key based on value
 def get_key(val):
     for key, value in dictionary.items():
         if val == value:
